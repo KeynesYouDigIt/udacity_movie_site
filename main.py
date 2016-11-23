@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
@@ -9,7 +9,13 @@ app.config['DEBUG'] = True
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello Udacity!'
+    return 'Hello Udacity! <a href>Movie site here </a>'
+
+@app.route('/movies')
+def hello():
+    """Return a friendly HTTP greeting."""
+    return render_template('fresh_tomatoes.html')
+
 
 
 @app.errorhandler(404)
