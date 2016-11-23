@@ -12,7 +12,7 @@ def hello():
     return 'Hello Udacity! <a href>Movie site here </a>'
 
 @app.route('/movies')
-def hello():
+def movies():
     """Return a friendly HTTP greeting."""
     return render_template('fresh_tomatoes.html')
 
