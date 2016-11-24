@@ -1,8 +1,3 @@
-"""This application produces a webpage showing movie trailers, posters, 
-and a linke to reviews. Web_up generates the HTML and Media generates
-the data.
-"""
-
 import Media
 import web_up
 
@@ -32,3 +27,4 @@ for Mov in mov_roster:
     print Mov.Plot
 
 web_up.open_movies_page(mov_roster)
+#takes list  of movies as arg
