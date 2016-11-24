@@ -1,6 +1,4 @@
 #Welcome to Trailers.com!
-
-actually, its just my submission for the movie trailer site project. I am going fast since I already have web dev experience. Be gentle!!
 =======
 actually, its just my submission for the movie trailer site project. I am going fast since I already have web dev experience. Be gentle!!
 
